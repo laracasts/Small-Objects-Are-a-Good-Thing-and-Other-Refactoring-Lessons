@@ -10,6 +10,7 @@ class PostsController extends Controller {
      * Store a new post.
      *
      * @param CreatePostRequest $request
+     * @param Dispatcher $events
      * @return string
      */
     public function store(CreatePostRequest $request, Dispatcher $events)
